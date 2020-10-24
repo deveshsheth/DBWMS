@@ -1,9 +1,16 @@
 const Pool = require('pg').Pool
+// const pool = new Pool({
+//     user:'postgres',
+//     host:'localhost',
+//     database:'pgwms',
+//     password:'root',
+//     port:5432,
+// });
 const pool = new Pool({
-    user:'postgres',
-    host:'localhost',
-    database:'pgwms',
-    password:'root',
+    user:'dmghwioxfhwtnb',
+    host:'ec2-107-22-241-205.compute-1.amazonaws.com',
+    database:'d20i6fsba4odab',
+    password:'d07d997b3419fea7b98c91e6ae1ba92fae3732f70ff894292cd0650c1e17be62',
     port:5432,
 });
 const createpeon = (req,res) => {
