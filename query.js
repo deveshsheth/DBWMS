@@ -75,8 +75,8 @@ const createfaculty = (req,res) => {
 }
 const getfaculty = (req,res) => {
     pool.query('select * from faculty order by fid asc', (error,result) => {
-        console.log(result);
-        console.log(error);
+        console.log("result ="+result);
+        console.log("Error ="+error);
         // if(error)
         // {
         //     throw error;
